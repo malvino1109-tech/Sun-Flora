@@ -42,7 +42,7 @@
         <span class="nav-brand-icon">
          <img src="./assets/icon.png" style="width:40px; height:40px">
         </span>
-        <span>Benih Harapan</span>
+        <span>SunFlora</span>
       </a>
 
       <button class="nav-mobile-toggle" id="nav-toggle-btn" aria-label="Buka menu navigasi" aria-expanded="false">
@@ -772,7 +772,83 @@
             Terima kasih telah menjadi bagian dari perjalanan kecil ini. Semoga benih yang ditanam hari ini tumbuh menjadi keindahan di kemudian hari.
           </p>
 
-          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+          <!-- Bingkai Dekoratif Video -->
+          <div class="video-frame-container animate-on-scroll">
+            <!-- Ornamen Bunga & Daun Sudut -->
+            <div class="video-frame-decor decor-top-left" aria-hidden="true">
+              <svg viewBox="0 0 60 60" width="54" height="54" fill="none">
+                <!-- Bunga Matahari Mini di Sudut Kiri Atas -->
+                <circle cx="20" cy="20" r="9" fill="#FFD447" />
+                <circle cx="20" cy="20" r="4.5" fill="#795548" />
+                <ellipse cx="20" cy="7" rx="3.5" ry="6" fill="#FFD447" />
+                <ellipse cx="20" cy="33" rx="3.5" ry="6" fill="#FFD447" />
+                <ellipse cx="7" cy="20" rx="6" ry="3.5" fill="#FFD447" />
+                <ellipse cx="33" cy="20" rx="6" ry="3.5" fill="#FFD447" />
+                <ellipse cx="11" cy="11" rx="4" ry="4" fill="#FFA000" transform="rotate(-45 11 11)" />
+                <ellipse cx="29" cy="29" rx="4" ry="4" fill="#FFA000" transform="rotate(-45 29 29)" />
+                <ellipse cx="11" cy="29" rx="4" ry="4" fill="#FFA000" transform="rotate(45 11 29)" />
+                <ellipse cx="29" cy="11" rx="4" ry="4" fill="#FFA000" transform="rotate(45 29 11)" />
+                <!-- Daun menjalar -->
+                <path d="M 20 20 Q 44 18 52 8 Q 38 26 20 20" fill="#789B59" />
+                <path d="M 20 20 Q 18 44 8 52 Q 26 38 20 20" fill="#789B59" />
+              </svg>
+            </div>
+
+            <div class="video-frame-decor decor-bottom-right" aria-hidden="true">
+              <svg viewBox="0 0 60 60" width="54" height="54" fill="none">
+                <!-- Bunga Marigold di Sudut Kanan Bawah -->
+                <circle cx="40" cy="40" r="11" fill="#F28C28" />
+                <circle cx="40" cy="40" r="7" fill="#FFA834" />
+                <circle cx="40" cy="40" r="3.5" fill="#FFE082" />
+                <path d="M 40 40 Q 16 42 8 52 Q 22 34 40 40" fill="#789B59" />
+                <path d="M 40 40 Q 42 16 52 8 Q 34 22 40 40" fill="#789B59" />
+              </svg>
+            </div>
+
+            <div class="video-frame-decor decor-top-right" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+                <path d="M 32 8 C 18 10 10 22 8 32 C 20 28 28 18 32 8 Z" fill="#789B59" opacity="0.9" />
+                <path d="M 32 8 Q 20 20 8 32" stroke="#315C3A" stroke-width="1.5" />
+                <path d="M 24 14 C 18 13 14 10 12 6 C 18 8 22 11 24 14 Z" fill="#90B66E" />
+              </svg>
+            </div>
+
+            <div class="video-frame-decor decor-bottom-left" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+                <path d="M 8 32 C 22 30 30 18 32 8 C 20 12 12 22 8 32 Z" fill="#789B59" opacity="0.9" />
+                <path d="M 8 32 Q 20 20 32 8" stroke="#315C3A" stroke-width="1.5" />
+                <path d="M 16 26 C 22 27 26 30 28 34 C 22 32 18 29 16 26 Z" fill="#90B66E" />
+              </svg>
+            </div>
+
+            <!-- Wadah Media Video -->
+            <div class="video-frame-inner">
+              <video class="video-element" width="400" height="400" controls preload="none" poster="assets/icon.png">
+                <source src="assets/video/sunflora.mp4" type="video/mp4">
+                Browser Anda tidak mendukung tag video.
+              </video>
+            </div>
+          </div>
+
+
+            <div class="video-frame-decor decor-top-right" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+                <path d="M 32 8 C 18 10 10 22 8 32 C 20 28 28 18 32 8 Z" fill="#789B59" opacity="0.9" />
+                <path d="M 32 8 Q 20 20 8 32" stroke="#315C3A" stroke-width="1.5" />
+                <path d="M 24 14 C 18 13 14 10 12 6 C 18 8 22 11 24 14 Z" fill="#90B66E" />
+              </svg>
+            </div>
+
+            <div class="video-frame-decor decor-bottom-left" aria-hidden="true">
+              <svg viewBox="0 0 40 40" width="36" height="36" fill="none">
+                <path d="M 8 32 C 22 30 30 18 32 8 C 20 12 12 22 8 32 Z" fill="#789B59" opacity="0.9" />
+                <path d="M 8 32 Q 20 20 32 8" stroke="#315C3A" stroke-width="1.5" />
+                <path d="M 16 26 C 22 27 26 30 28 34 C 22 32 18 29 16 26 Z" fill="#90B66E" />
+              </svg>
+            </div>
+
+
+          <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap; margin-top: 2rem;">
             <button class="btn-primary trigger-petal-burst" type="button" aria-label="Tebarkan Kelopak Bunga">
               <span>Tebarkan Semangat Harapan</span>
               <svg viewBox="0 0 20 20" width="18" height="18" fill="currentColor">
@@ -800,7 +876,7 @@
       <!-- Footer Credits -->
       <footer class="footer-credits">
         <div class="container">
-          <p>© Menebar Benih, Menumbuhkan Harapan — Hampers Bunga Matahari Mini & Marigold</p>
+          <p>© Menebar Benih, Menumbuhkan Harapan — SunFlora, Hampers Bunga Matahari Mini & Marigold</p>
         </div>
       </footer>
     </section>
